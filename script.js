@@ -16,7 +16,7 @@ function handleLooping() {
 
         setTimeout(() => {
             img.style.opacity = 1;
-        }, 500)
+        }, 600)
         idx = (idx === 5 ? 1 : ++idx);
     }, 1500);
 }
@@ -35,3 +35,4 @@ function handleStopClick() {
     clearInterval(myInterval);
     looping = false;
 }
+

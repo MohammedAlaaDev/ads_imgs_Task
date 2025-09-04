@@ -35,4 +35,3 @@ function handleStopClick() {
     clearInterval(myInterval);
     looping = false;
 }
-
